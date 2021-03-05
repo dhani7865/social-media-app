@@ -1,0 +1,74 @@
+/* style sheet for sign in  page */
+* { 
+  font-family:verdana,sans-serif; 
+  font-size  :14pt; 
+}
+
+body { 
+  width     :850px;
+  margin    :25px auto; 
+  background:yellow; 
+  border    :3px solid black; 
+}
+
+p {
+    font-family: arial;
+    font-size: 18px;
+}
+
+h1 { 
+    display: block;
+    font-size: 20px;
+    font-family: arial;
+}
+
+input[name=username] {
+    width: 90%;
+    padding: 16px 26px;
+    margin: 9px 0;
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 100px;
+    box-sizing: border-box;
+}
+
+input[name=password] {
+    width: 90%;
+    padding: 16px 26px;
+    margin: 9px 0;
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 100px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    background-color: blue;
+    color: white;
+    padding: 16px 25px;
+    margin: 7px 0;
+    border: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: black;
+}
+
+input [type=password] {
+	background-color: black;
+}
+
+a:link, a:visited {
+    background-color: blue;
+    color: white;
+    padding: 14px 14px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+a:hover, a:active {
+    background-color: black;
+}
